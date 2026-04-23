@@ -1,0 +1,4 @@
+,Interpretable,Formula Discovery,Spline Visualization,Feature Importance
+KAN,✓,✓,✓,✓
+XNet,Partial,✗,✗,✗
+MLP,✗,✗,✗,✗

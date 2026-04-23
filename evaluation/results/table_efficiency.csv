@@ -1,0 +1,4 @@
+,Parameters,Inference (ms),Throughput (k/s)
+KAN,560.0,2.503,399.6
+XNet,177.0,0.047,21061.5
+MLP,257.0,0.049,20400.4

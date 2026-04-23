@@ -1,0 +1,108 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+ragas_env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Temporary files
+~$*
+*.tmp
+*.temp
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+
+# Node (if any)
+node_modules/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ── Security ──────────────────────────────────────────
+vast_dir/
+
+# ── Large / binary files ─────────────────────────────
+*.pdf
+
+# ── Runtime artifacts ─────────────────────────────────
+cache.json
+
+# ── Duplicate / backup files ─────────────────────────
+*.bak
+*copy*.ipynb
+*copy*.css
+*copy*.js
+ai_bot_web/bot_old.js
+ai_bot_web/style_old.css
+
+# ══════════════════════════════════════════════════════
+# Files NOT in the README project structure
+# (kept locally, excluded from GitHub)
+# ══════════════════════════════════════════════════════
+
+# ── Root: loose images ────────────────────────────────
+/hardware_*.png
+/latency_*.png
+/ranking_*.png
+/lnu_etch.png
+/logo.png
+
+# ── Root: article / thesis markdown drafts ────────────
+/article_*.md
+/section_*.md
+/problem_statement*
+/EXPERIMENT_REPORT.md
+
+# ── Root: one-off / helper scripts ────────────────────
+/draw.py
+/plots.py
+/clean_data.py
+/augment_ground_truth.py
+/generate_training_data.py
+/llm_judge_labeling.py
+/process_new_data.py
+/mock_server.py
+
+# ── evaluation/: notebooks, training data, figures ────
+evaluation/*.ipynb
+evaluation/demo_run.py
+evaluation/*.csv
+evaluation/paper_figures/
+
+# ── plots/: generated figures (not in README) ─────────
+/plots/
+
+# ── src/: research & test helpers ─────────────────────
+src/research/
+src/technique_1_basic/test.py
+src/technique_1_basic/hybrid_search_usekeywords.py

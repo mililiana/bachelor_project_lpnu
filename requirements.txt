@@ -1,0 +1,27 @@
+# Core dependencies
+google-generativeai>=0.3.0
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+
+# Web server (API backend)
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# Data processing
+pdfminer.six>=20231228
+openpyxl>=3.1.0
+pandas>=2.0.0
+
+# Evaluation
+ragas>=0.1.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+loguru>=0.7.0
+
+# ── Optional: LapaLLM on GPU (vast.ai / CUDA) ──
+# Uncomment below if running with --use-lapa flag
+# torch>=2.1.0
+# transformers>=4.50.0
+# accelerate>=0.25.0

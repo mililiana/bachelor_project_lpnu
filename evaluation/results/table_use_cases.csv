@@ -1,0 +1,4 @@
+,Best For,Use Case,Recommendation
+KAN,"Research, Paper Figures",Explainable reranking,Offline analysis
+XNet,Fast aggregation,Signal fusion,Real-time pipeline
+MLP,Baseline comparison,Standard neural ranking,Reference only
